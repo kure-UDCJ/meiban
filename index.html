@@ -29,7 +29,7 @@
 
   // ★iPhoneは即Quick Lookへ（白いプレビュー画面を出さない）
   if (isiOS) {
-    location.replace("https://kure-udcj.github.io/demo/meiban_sample.usdz");
+    location.replace("https://kure-udcj.github.io/meiban/meiban.usdz");
   }
 </script>
 
@@ -37,7 +37,7 @@
 
 <!-- Androidのみ表示される（iPhoneは上で即遷移するためここは見えない） -->
 <model-viewer
-  src="https://kure-udcj.github.io/demo/meiban_sample.glb"
+  src="https://kure-udcj.github.io/meiban/meiban.glb"
   ar
   ar-modes="scene-viewer"
   camera-controls
@@ -48,10 +48,11 @@
 <p class="note">
 ・Android：右下のARアイコン（またはモデル上のAR）をタップして起動します。<br>
 ・iPhone：自動でARが起動します。起動しない場合は下のリンクからお試しください。<br><br>
-<a class="btn" href="https://kure-udcj.github.io/demo/meiban_sample.usdz ">iPhone（Quick Look）で開く</a>
+<a class="btn" rel="ar" href="https://kure-udcj.github.io/meiban/meiban.usdz">
+  iPhone（Quick Look）で開く
+</a>
 </p>
 
 </div>
 </body>
 </html>
-
